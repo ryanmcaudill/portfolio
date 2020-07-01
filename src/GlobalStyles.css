@@ -1,0 +1,50 @@
+/*
+COLOR SCHEME: https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=263238&secondary.color=D32F2F
+    Primary     #263238
+    Light       #4f5b62
+    Dark        #000a1n
+
+    Secondary   #d32f2f
+    Light       #ff6659 - use sparingly; white text illegible
+    Dark        #9a0007
+
+    Text        #ffffff
+ */
+
+body {
+    background-color: #000a12;
+    color: #ffffff;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0 10px 0;
+}
+
+.profile-icon {
+    margin-right: 10px;
+    border-radius: 50%;
+    max-width: 150px;
+  }
+
+.link {
+    color: #61dafb;
+}
+
+.app-bar-wrapper {
+    background-color: #263238 !important;
+}
