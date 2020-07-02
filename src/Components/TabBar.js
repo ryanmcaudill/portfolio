@@ -7,6 +7,7 @@ import Tab from '@material-ui/core/Tab';
 import Box from '@material-ui/core/Box';
 import HomeIcon from '@material-ui/icons/Home';
 import FavoriteIcon from '@material-ui/icons/Favorite';
+import SportsEsportsIcon from '@material-ui/icons/SportsEsports';
 
 export const TabBar = () => {
     const [nTabIndex, setTabIndex] = React.useState(0);
@@ -28,7 +29,7 @@ export const TabBar = () => {
         },
         {
         label: "Diablo 3 Season 21",
-        icon: <FavoriteIcon />,
+        icon: <SportsEsportsIcon />,
         id: "d3s21",
         contents: <></>
         }
