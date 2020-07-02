@@ -25,6 +25,12 @@ export const TabBar = () => {
         icon: <FavoriteIcon />,
         id: "about",
         contents: <>About Me</>
+        },
+        {
+        label: "Diablo 3 Season 21",
+        icon: <FavoriteIcon />,
+        id: "d3s21",
+        contents: <></>
         }
     ];
 
