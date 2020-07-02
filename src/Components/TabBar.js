@@ -8,7 +8,7 @@ import Box from '@material-ui/core/Box';
 import HomeIcon from '@material-ui/icons/Home';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import SportsEsportsIcon from '@material-ui/icons/SportsEsports';
-
+import { DiabloPanel } from "./TabPanels/DiabloPanel";
 export const TabBar = () => {
     const [nTabIndex, setTabIndex] = React.useState(0);
     const handleChange = (event, newIndex) => {
@@ -31,7 +31,7 @@ export const TabBar = () => {
         label: "Diablo 3 Season 21",
         icon: <SportsEsportsIcon />,
         id: "d3s21",
-        contents: <></>
+        contents: <DiabloPanel />
         }
     ];
 

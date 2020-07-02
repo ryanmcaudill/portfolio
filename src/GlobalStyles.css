@@ -48,3 +48,15 @@ code {
 .app-bar-wrapper {
     background-color: #263238 !important;
 }
+
+.diablo-character-display {
+    margin: auto;
+    width: 50%;
+}
+
+.diablo-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
